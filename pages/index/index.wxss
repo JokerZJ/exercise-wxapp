@@ -1,0 +1,174 @@
+.after-navber{
+color: white;
+background:#377FD7;
+font-size: 32rpx;
+height: auto;
+
+} 
+.conTop{
+  height: 100rpx;
+}
+.pullD{
+  width: 95%;
+  height: auto;
+  margin:0rpx 3%;
+  background:white;
+  position: absolute;
+  z-index: 999;
+  border-radius: 0 0 30rpx 30rpx;
+  padding: 20rpx;
+}
+.pullD .pullCon{
+  position: relative;  
+  padding: 10rpx;
+  margin:10rpx;
+  float: left;
+ 
+}
+.pullCon text{
+  color: black;
+  border: 1px solid #E20B19;
+  border-radius: 15rpx;
+  padding: 10rpx;
+   top:20rpx;
+}
+
+.A1{
+  font-weight: bold;
+}
+.A view{
+  margin-right: 27rpx;
+}
+.A2 image{
+  width:23px;
+  height: 14px;
+}
+/* .conBanner{
+  height: 255rpx; 
+  width: 100%; 
+}
+.swiper {
+  height: 375rpx;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+} */
+
+.con{
+  width: 100%;
+  height: auto;
+  background: white;
+  padding:20rpx;
+  margin-bottom: 90rpx;
+  
+}
+.act{
+  margin-bottom: 20rpx;
+}
+.conL{
+  width: 35%;
+  /* height:250rpx; */
+  height:180rpx;
+}
+ .conL image{
+   width:100%;
+   height:100%;  
+} 
+.conR{
+  width: 65%;
+  /* height:250rpx; */
+  height:180rpx;
+  padding:10rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.conR .t1{
+  font-size: 28rpx;
+  font-weight: bold;
+  color:black;
+ margin-bottom: 10rpx;
+ flex-grow: 1;
+}
+.conR .t2{
+  font-size: 25rpx;
+  color:#ccc;
+  margin-bottom: 20rpx;
+  flex-grow: 1;
+}
+.conR .t3{
+  flex-grow: 0;
+
+}
+.conR .B{
+  width:50rpx;
+  background:#E20B19;
+  font-size: 20rpx;
+   
+  padding:10rpx 20rpx;
+  border-radius: 28rpx;
+  color: white;
+
+}
+.conR .C{
+  width:50rpx;
+  border: 2rpx solid #F9EF55;
+  margin-left: 10rpx;
+  font-size: 22rpx;
+  border-radius: 28rpx;
+  padding:6rpx 20rpx;
+
+}
+.conR .B1{
+  width:50rpx;
+  background:#D3D3D3;
+  font-size: 20rpx;
+   
+  padding:10rpx 20rpx;
+  border-radius: 28rpx;
+  color: white;
+
+}
+.conR .number{
+  font-size: 20rpx;
+  float: right;
+  margin-top:10rpx;
+}
+
+
+.banner {
+    height: 360rpx;
+}
+
+.banner navigator {
+    font-size: 0;
+    position: relative;
+    height: 100%;
+}
+
+.banner .slide-image {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .slide-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20rpx;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 11pt;
+    display: none;
+}
+
+

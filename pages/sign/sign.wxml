@@ -1,0 +1,33 @@
+<!--pages/sign/sign.wxml-->
+<view class="con">
+  <image src="../../images/mao.png" class="ban"></image>
+  <view class="signUp">
+    <view class="T1">活动报名</view>
+    <view class="T2">Event Registration</view>
+    <form class="T" bindsubmit="formSubmit">
+      <view class="signForm">
+        <label>姓名：</label>
+        <input placeholder="请输入您的真实姓名" name="name"></input>
+      </view>
+      <view class="signForm">
+        <label>手机（通知领奖用）：</label>
+        <input placeholder="请输入您的手机号" name="tel"></input>
+      </view>
+      <view class="signForm">
+        <label>产品：</label>
+        <input placeholder="请输入您购买的产品" name="pro"></input>
+      </view>
+      <view class="img-v">
+        <view class="upLoadP" bindtap="chooseImg">上传图片</view>
+        <view class="img" wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+          <image src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+          <view class="delete-btn" data-index="{{index}}" catchtap="deleteImg"></view>
+        </view>
+      </view>
+      <button bindtap="upLoad" class="btn" form-type="submit">立即报名</button>
+    </form>
+
+
+    <!-- <button bindtap="bindPhoto" class="upLoadP">上传图片（最多一张）</button> -->
+  </view> 
+</view>

@@ -1,0 +1,32 @@
+<!--pages/act/act.wxml-->
+<text></text>
+<view>
+  <image src="../../images/mao.png" class="ban"></image>
+  <view class="rule">
+    <view class="ruleText">活动规则</view>
+    <view class="signText">报名时间：2018/4/20-5/01</view>
+    <view class="voteText">投票时间：2018/5/10-5/30</view>
+    <view class="actCon">
+      <view>1、参赛者上传佩戴任意一款眼镜高清自拍照</view>
+      <view>2、个人信息务必真实</view>
+      <view>3、每位参赛者不限制投票</view>
+      <view>4、仅限整个伊犁州报名参赛哦~</view>
+    </view>
+    <view class="a">
+      <navigator class="sign" url="/pages/sign/sign">我要报名</navigator>
+      <navigator class="sign" url="/pages/vote/vote">我要投票</navigator>
+    </view>
+  </view>
+  <view class="">
+   <view class="ruleText">奖品分类</view>
+   <view class="prize">
+    <block wx:for="{{prize}}">
+      <view>
+        <view>{{item.title}}</view>
+        <image src="{{item.url}}" class="prize-img"></image>
+      </view>
+    </block>
+    <view>{{con}}<text>{{tel}}</text></view>
+   </view>
+  </view>
+</view>

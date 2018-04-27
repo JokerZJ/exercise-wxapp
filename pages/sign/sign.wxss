@@ -1,0 +1,63 @@
+/* pages/sign/sign.wxss */
+  
+  .con{
+    width:100%;
+    height:auto;
+  }
+  .ban{
+  width: 100%;
+  height: 500rpx;
+}
+.T1{
+font-size: 24px;
+color:rgb(216, 78, 104);
+text-align: center;
+margin:20rpx auto;
+}
+.T2{
+  font-size: 8px;
+color:rgb(216, 78, 104);
+text-align: center;
+}
+.T{
+  width:100%;
+  padding:30rpx;
+}
+.signForm{
+  margin:10px;
+}
+.signForm input{
+  width:100%;
+  height:60rpx;
+  line-height: 60rpx;
+  border:1px solid #999;
+  border-radius: 5px;
+  padding-left: 8px;
+  margin-top: 8px;
+}
+.upLoadP{
+  width:400rpx;
+  height:80rpx;
+  background:rgb(216, 78, 104);
+  color:#fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 80rpx;
+  margin:10px auto;
+}
+.btn{
+  width:100%;
+  height:80rpx;
+   background:rgb(216, 78, 104);
+  color:#fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 80rpx;
+  margin:10px auto;
+}
+.img{
+  width:80%;
+  height:auto;
+  margin:10px auto;
+
+}

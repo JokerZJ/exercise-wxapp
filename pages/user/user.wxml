@@ -1,0 +1,47 @@
+<include src="/commons/navbar/navbar" />
+<view class="after-navber">
+    <view class="user-info flex-row">
+      <image class="user-info-bg" mode="aspectFill" src="{{user_info.avatar_url}}" />
+      <view class="userIm">
+        <view class="Pic">
+          <image mode="aspectFill" src="{{user_info.avatar_url}}"></image>
+        </view>
+        <view class="UserName">{{user_info.nickname}}</view>
+        <view class="userTag">个性签名：{{user_tag}}</view>
+      </view>
+    </view>
+
+    <!--内容部分  -->
+    <view class="user-con">
+   
+        <navigator class="menuList" url="/pages/order/order?status=0">
+          <image class="li_img" src="/images/icon-order-3.png">           
+          </image>
+          <text class="li_name">我的报名</text>
+          <view class="li_in">
+            <image src="{{img}}"></image>
+          </view>
+        </navigator>   
+
+        <navigator class="menuList" url="/pages/favorite/favorite">
+          <image class="li_img" src="/images/icon-order-2.png">           
+          </image>
+          <text class="li_name">活动收藏</text>
+          <view class="li_in">
+            <image src="{{img}}"></image>
+          </view>
+        </navigator>
+
+        <navigator class="menuList" url="/pages/coupon/coupon">
+          <image class="li_img" src="/images/icon-order-0.png">           
+          </image>
+          <text class="li_name">我的积分</text>
+          <view class="li_in">
+            <image src="{{img}}"></image>
+          </view>
+        </navigator>
+    </view>  
+
+    <view class="btn">退出登陆</view> 
+    <include src="/commons/copyright/copyright.wxml" />
+</view>
